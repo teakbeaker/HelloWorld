@@ -20,6 +20,6 @@ app.use(express.static(__dirname + '/css'));
 app.use(express.static(__dirname + '/'));
 app.use(express.static(__dirname + '/js'));
 
-server.listen(8080, function(){
+server.listen(80, function(){
 	console.log('Server started on 8080...dddd');
 });

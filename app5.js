@@ -11,7 +11,7 @@ app.get('/', function(req, res,next) {
 });
 
 //-- local
-var routes = require('./routes.js')(app);
+//var routes = require('./routes.js')(app);
 
 //-- 
 app.use(express.static(__dirname + '/node_modules'));

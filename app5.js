@@ -1,6 +1,6 @@
 // app.js
 var express = require('express');
-var $ = require('jQuery');
+//var $ = require('jQuery');
 
 var app = express();
 
